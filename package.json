@@ -1,0 +1,25 @@
+{
+  "name": "pwa-pratique",
+  "version": "1.0.0",
+  "description": "Cours pwa",
+  "main": "main.js",
+  "scripts": {
+    "jsonserver": "json-server -p 3001 --watch db.json",
+    "start": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcamille97/pwa-pratique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcamille97/pwa-pratique/issues"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "homepage": "https://github.com/rcamille97/pwa-pratique#readme"
+}
